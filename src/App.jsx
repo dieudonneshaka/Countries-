@@ -3,7 +3,8 @@ import axios from "axios";
 
 const App = () => {
 const [countries, setCountries] = useState([]);
-const [filter, setFilter] = useState("");
+const [filter, setFilter] = useState("");node -v
+
 const [weather, setWeather] = useState(null);
 
 // Fetch all countries on component mount
